@@ -1,0 +1,22 @@
+{
+    "name": "gustavo/designpatterns",
+    "require": {
+        "vlucas/phpdotenv": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GustavoWerle01",
+            "email": "gustavo.l.werle@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GW\\Db\\": "src",
+            "App\\": "app" 
+        }
+    }
+}
